@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  os:
+    build:
+      context: .
+    tty: true
+    environment:
+      - VAR1=abc
+      - VAR2=def
